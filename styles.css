@@ -20,7 +20,7 @@ button {
 		background-color: #EEEEEE;
   }
 }
-@media(){
+@media(min-width: 901px){
 	body{
 		margin: 40px auto;
 		max-width: 650px;
