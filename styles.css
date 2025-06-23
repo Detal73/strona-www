@@ -9,27 +9,16 @@ button {
 	cursor: pointer;
 }
 
-@media (max-width: 900px) {
-  body {
-		margin: 40px auto;
-		max-width: 650px;
-		line-height: 1.6;
-		font-size: 18px;
-		color: #444;
-		padding: 0 10 px;
-		background-color: #EEEEEE;
-  }
+body {
+	margin: 40px auto;
+	max-width: 650px;
+	line-height: 1.6;
+	font-size: 18px;
+	color: #444;
+	padding: 0 10 px;
+	background-color: #EEEEEE;
 }
-@media(min-width: 901px){
-	body{
-		margin: 40px auto;
-		max-width: 650px;
-		line-height: 1.6;
-		font-size: 18px;
-		color: #444;
-		padding: 0 10 px;
-		background-color: #EEEEEE;
-	}
+
 }
 
 h1, h2, h3 {
