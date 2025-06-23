@@ -4,20 +4,32 @@ button {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 32px;
+	font-size: 30px;
 	margin: 4px 2px;
 	cursor: pointer;
 }
 
-
-body{
-	margin: 40px auto;
-	max-width: 650px;
-	line-height: 1.6;
-	font-size: 18px;
-	color: #444;
-	padding: 0 10 px;
-	background-color: #EEEEEE;
+@media (max-width: 900px) {
+  body {
+		margin: 40px auto;
+		max-width: 650px;
+		line-height: 1.6;
+		font-size: 18px;
+		color: #444;
+		padding: 0 10 px;
+		background-color: #EEEEEE;
+  }
+}
+@media(){
+	body{
+		margin: 40px auto;
+		max-width: 650px;
+		line-height: 1.6;
+		font-size: 18px;
+		color: #444;
+		padding: 0 10 px;
+		background-color: #EEEEEE;
+	}
 }
 
 h1, h2, h3 {
